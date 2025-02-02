@@ -249,3 +249,185 @@ main {
   height: 31.7px;
   margin-top: -83px;
 }
+
+.newArrivals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.newArrivals {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.product-title {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #ff9800;
+  font-size: 14px;
+}
+
+.star-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.style {
+  width: 1240px;
+  height: 866px;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: center;
+}
+.pics:hover {
+  cursor: pointer;
+}
+.casual {
+  width: 407px;
+  height: 289px;
+  border-radius: 20px;
+  margin: 0px 20px 20px 0px;
+}
+
+.formal {
+  width: 684px;
+  height: 289px;
+  border-radius: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.party {
+  width: 684px;
+  height: 289px;
+  border-radius: 20px;
+  margin: 0px 20px 0px 0px;
+}
+
+.gym {
+  width: 407px;
+  height: 289px;
+  border-radius: 20px;
+}
+
+.feedbacks {
+  width: 1110px;
+  height: 351px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.feedbacks .title {
+  width: 1110px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 53px;
+}
+
+.swiperNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.swiper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Feed {
+  width: Fixed (400px) px;
+  height: Fixed (240px) px;
+
+  padding: 28px 32px 28px 32px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 1px solid #0000001a;
+}
+
+.starDiv {
+  align-items: left;
+  width: Hug (138.84px) px;
+  height: Hug (22.58px) px;
+  gap: 6.49px;
+}
+
+.names {
+  margin-top: 15px;
+  margin-bottom: 28px;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  display: flex;
+}
+.feedsTexts {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #00000099  ;
+}
